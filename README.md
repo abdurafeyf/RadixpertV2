@@ -1,6 +1,4 @@
 # Radixpert: Advanced Radiology Report Generation
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PDF](https://img.shields.io/badge/PDF-Download-red.svg)](https://assets.tina.io/1fb09d03-9237-4c49-aaa9-d024a83c7ac7/Radixpert__A_Staged_Adaptation_and_Hierarchical_Fusion_Framework_for_Radiology_VLMs.pdf)
 
 A state-of-the-art AI system for generating radiology reports from medical images using **hierarchical cross-modal fusion** and **parameter-efficient fine-tuning with MSA-LoRA**.
