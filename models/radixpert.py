@@ -6,9 +6,9 @@ from typing import Dict, List, Optional, Tuple, Union
 import math
 
 
-from msa_lora import MSALoRAConfig, MSALoRALayer
-from hcf_fusion import HierarchicalCrossModalFusion
-from vision_encoder import VisionEncoder
+from .msa_lora import MSALoRAConfig, MSALoRALayer
+from .hcf_fusion import HierarchicalCrossModalFusion
+from .vision_encoder import VisionEncoder
 
 
 class RadixpertConfig:

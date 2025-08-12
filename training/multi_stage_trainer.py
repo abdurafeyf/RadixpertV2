@@ -12,12 +12,12 @@ from collections import defaultdict
 from dataclasses import dataclass, asdict
 from enum import Enum
 
-from models.radixpert import Radixpert, RadixpertConfig
-from evaluation.metrics import RadixpertEvaluator
-from utils.logging_utils import setup_comprehensive_logging
-from utils.checkpoint_utils import CheckpointManager
-from losses import MultiStageLoss
-from optimization import create_optimizer, create_scheduler
+from ..models.radixpert import Radixpert, RadixpertConfig
+from ..evaluation.metrics import RadixpertEvaluator
+from ..utils.logging_utils import setup_comprehensive_logging
+from ..utils.checkpoint_utils import CheckpointManager
+from .losses import MultiStageLoss
+from .optimization import create_optimizer, create_scheduler
 
 
 class TrainingStage(Enum):

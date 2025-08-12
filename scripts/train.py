@@ -19,16 +19,16 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 
-from models.radixpert import Radixpert, RadixpertConfig
-from training.multi_stage_trainer import MultiStageTrainer, create_multi_stage_trainer
-from training.losses import MultiStageLoss, LossConfig
-from training.optimization import OptimizationConfig
-from data.datasets import create_multi_stage_datasets, create_padchest_config, create_roco_config
-from evaluation.metrics import RadixpertEvaluator, create_evaluator
-from config.training_config import TrainingConfig, create_stage_configs
-from utils.logging_utils import setup_comprehensive_logging, log_system_info, log_model_info
-from utils.checkpoint_utils import CheckpointManager, find_latest_checkpoint
-from utils.device_utils import setup_device, get_memory_info
+from ..models.radixpert import Radixpert, RadixpertConfig
+from ..training.multi_stage_trainer import MultiStageTrainer, create_multi_stage_trainer
+from ..training.losses import MultiStageLoss, LossConfig
+from ..training.optimization import OptimizationConfig
+from ..data.datasets import create_multi_stage_datasets, create_padchest_config, create_roco_config
+from ..evaluation.metrics import RadixpertEvaluator, create_evaluator
+from ..config.training_config import TrainingConfig, create_stage_configs
+from ..utils.logging_utils import setup_comprehensive_logging, log_system_info, log_model_info
+from ..utils.checkpoint_utils import CheckpointManager, find_latest_checkpoint
+from ..utils.device_utils import setup_device, get_memory_info
 
 
 def parse_arguments() -> argparse.Namespace:

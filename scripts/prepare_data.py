@@ -22,8 +22,8 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 
-from data.preprocessing import TextProcessor, MedicalImageProcessor
-from utils.logging_utils import setup_comprehensive_logging
+from ..data.preprocessing import TextProcessor, MedicalImageProcessor
+from ..utils.logging_utils import setup_comprehensive_logging
 
 
 class DataPreparationPipeline:
