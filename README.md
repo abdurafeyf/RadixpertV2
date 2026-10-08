@@ -1,6 +1,6 @@
 # Radixpert: A Staged Adaptation and Hierarchical Fusion Framework for Radiology VLMs
 
-<img src="assets/architecture.png" alt="Radixpert Architecture" width="800"/>
+<img src="assets/Radixpert_ Architecture Diagram.pdf" alt="Radixpert Architecture" width="800"/>
 
 ## Abstract
 
